@@ -47,10 +47,18 @@ table {
 	border-spacing: 0;
 }
 body{
+
 }
 .centerDiv{
 	border: 1px solid;
-	min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
+	display: inline;
+	width: 500px;
+	height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
