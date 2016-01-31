@@ -63,3 +63,17 @@ body{
 
     margin: auto;
 }
+.ball {
+	animation-name: move-left-right;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-delay:1s; 
+ 	animation-fill-mode: both;
+ 	animation-iteration-count:3;
+ 	animation-direction: alternate;
+}
+
+@keyframes move-left-right {
+	from {transform: translateX(0);}
+	to {transform: translateX(900px);}			
+}

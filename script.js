@@ -4,5 +4,5 @@ function loadAlert(){
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-	alert("this alert is loaded onload and before any external resources (images and css) are loaded")
+	//alert("this alert is loaded onload and before any external resources (images and css) are loaded")
 });
